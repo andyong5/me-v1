@@ -11,6 +11,26 @@
   justify-content: center;
   align-items: center;
 }
+.socials{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.work h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.work h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  font-size: 35px;
+  line-height: 0px;
+  text-align: center;
+  margin-top: 0;
+}
 
 .footer {
   display: flex;
