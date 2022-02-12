@@ -3,7 +3,6 @@
 }
 
 .main {
-  min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -11,6 +10,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .socials {
   display: flex;
   flex-direction: row;
@@ -38,7 +38,9 @@
   align-items: center;
   flex-direction: column;
 }
-
+.work {
+  margin-bottom: 60px;
+}
 .work h2 {
   margin-bottom: -21px;
   color: white;
@@ -65,6 +67,9 @@
   padding-right: 5px;
   color: #809cf5;
 }
+.section {
+  height: 100vh;
+}
 @media screen and (min-width: 1200px) {
   .main {
     min-height: 100vh;
@@ -74,16 +79,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 80%;
   }
 
   .container {
-    padding: 0 40rem;
+    padding: 0 10rem;
   }
-  .intro{
-    margin-top: 20%;
-  } 
-  .intro h1{
+  .intro h1 {
     margin-top: -10px;
     margin-bottom: -10px;
     font-size: 100px;
