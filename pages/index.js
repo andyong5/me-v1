@@ -15,33 +15,37 @@ export default function Home() {
           <p>Hi, my name is Andy and I am a Software Engineer.</p>
           <Image src="/profile.jpg" width="400" height="300" />
         </div>
-
-        <div id="About  " className={`${styles.about} ${styles.section}`}>
-          <h1 className={styles.title}>About Me</h1>
-          <h2>Hi, I'm Andy! 👋</h2>
-          <p>
-            I am currently a Software Engineer at Microchip Technology and a
-            recent graduate from UC Davis (go ags!!!). My primary work is
-            full-stack and am currently building and updating our GUI and
-            backend code for the SyncServer. I am always looking for new skills
-            to learn and want to specialize in backend and build highly scalable
-            microservices.
-          </p>
-          <p>
-            When I am not coding, I love to try new foods and espeically try new
-            boba drinks! I love watching TV shows, basketball, and movies in my
-            free time. I am also interested in tech, financial indepence,
-            mechanical keyboards, video games, and board games. You can always
-            catch me playing League of Legends on my downtime.
-          </p>
-          <p>
-            Please feel free to reach out to me for anything at{" "}
-            <a href="mailto:acnguye@ucdavis.edu">acnguye@ucdavis.edu</a> or
-            connecting with me on{" "}
-            <a href="https://www.linkedin.com/in/acnguye/">Linkedin</a>!
-          </p>
+        <div className={styles.center}>
+          <div id="About" className={`${styles.about} ${styles.section}`}>
+            <h1 className={styles.title}>About Me</h1>
+            <h2>Hi, I'm Andy! 👋</h2>
+            <p>
+              I am currently a Software Engineer at Microchip Technology and a
+              recent graduate from UC Davis (go ags!!!). My primary work is
+              full-stack and am currently building and updating our GUI and
+              backend code for the SyncServer. I am always looking for new
+              skills to learn and want to specialize in backend and build highly
+              scalable microservices.
+            </p>
+            <p>
+              When I am not coding, I love to try new foods and espeically try
+              new boba drinks! I love watching TV shows, basketball, and movies
+              in my free time. I am also interested in tech, financial
+              indepence, mechanical keyboards, video games, and board games. You
+              can always catch me playing League of Legends on my downtime.
+            </p>
+            <p>
+              Please feel free to reach out to me for anything at{" "}
+              <a href="mailto:acnguye@ucdavis.edu">acnguye@ucdavis.edu</a> or
+              connecting with me on{" "}
+              <a href="https://www.linkedin.com/in/acnguye/">Linkedin</a>!
+            </p>
+          </div>
         </div>
-        <div id="Work Experience" className={`${styles.work} ${styles.section}`}>
+        <div
+          id="Work Experience"
+          className={`${styles.work} ${styles.section}`}
+        >
           <h1 className={styles.title}>Work Experience</h1>
           <div className={styles.date}>
             <h2>Software Engineer I</h2>
